@@ -1,9 +1,9 @@
 {
-  "version": "1.14.1",
-  "file": "AniBox-1.14.1-windows.zip",
-  "sha256": "6305ae83d2c9b4514b0e8f9f201f1afd78f29c36235fea845cde86f0e7268327",
-  "size": 13349364,
+  "version": "1.15.0",
+  "file": "AniBox-1.15.0-windows.zip",
+  "sha256": "afeb5d032df52a614fd5ef4f3231159b34f198de720d2cf9523b0ab83b14bdd3",
+  "size": 13366941,
   "date": "2026-11-23",
-  "notes": "Plex backup and restore: Settings → Your Plex library → Back up Plex makes a copy of everything you can edit in Plex (titles, descriptions, tags, posters, watched marks, library settings) and, if you like, Plex's own database file. It only reads from Plex. Restore puts a backup back into the same library or into a new one over the same folders, matched by file, with a preview first and Undo after. One Piece, the old-agent libraries and (into the same library) shows locked in AniBox each need an extra yes.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.14.1/AniBox-1.14.1-windows.zip"
+  "notes": "Phone app, step 0: Settings → Phone app → pick a folder on one of the Shield's drives, and AniBox keeps an \"AniBox Sync\" folder there with your library, posters and watch progress for the coming phone app (QR code included, never a password). Play on TV: when CastApp TV can't play a DTS or TrueHD sound track, AniBox picks one the TV can play, says so in plain words and offers a quick sound-only TV copy for your language. 14 bugs fixed after a fresh review (for example: \"Show 12.5.mkv\" no longer moves along with \"Show 12.mkv\", Undo follows your locks and One Piece's ask-first rule, protected folders get no new files). AniBox's tests now also run on Windows.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.15.0/AniBox-1.15.0-windows.zip"
 }
