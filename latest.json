@@ -1,8 +1,8 @@
 {
-  "version": "1.9.0",
-  "file": "AniBox-1.9.0-windows.zip",
-  "sha256": "e09bb0cfb1ceb25266792b6d97ee040ec32897eea60f8d553919c2e2473362dc",
-  "size": 12949521,
+  "version": "1.10.0",
+  "file": "AniBox-1.10.0-windows.zip",
+  "sha256": "adbd07c17a9b850e0ac4661537b63fc9188501ca5dc0148a587c146cda361a9a",
+  "size": 13012676,
   "date": "2026-11-23",
-  "notes": "Add new videos in one go: info files and a Plex scan of only the new folder.\nYour MyAnimeList and AniList lists, and sync when you finish an episode (after you turn it on per account).\nNew-episode notices, statistics, franchise watch order.\nCheck my library (duplicates, gaps), a move plan, and a History page with Undo.\nInternet Archive videos play straight from archive.org; TMDB info for series and movies.\nPlays on the TV? check, TV-friendly subtitles, and subtitle search (Jimaku, OpenSubtitles).\nPlay on TV: type a TV's address; CastApp TV picks your subtitle language.\nUpdates: AniBox now finds new versions here and can download them for you."
+  "notes": "Internet Archive, like Frostbox:\nSeries playlists: paste archive.org links, tick the series, sorted by air date or episode, hide episodes, refresh finds new ones.\nA cache that loads with several connections, loads the next 2 episodes ahead and plays without stopping to buffer.\nKeep: an episode stays on your PC in the folder AniBox Keep.\nAniBox plays archive.org's quick-starting MP4 copy unless the original is sharper.\nIncludes everything from 1.9.0 (lists and sync, new-episode notices, library check, TV check, subtitles, updates from here)."
 }
