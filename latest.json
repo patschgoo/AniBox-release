@@ -1,8 +1,8 @@
 {
-  "version": "1.11.0",
-  "file": "AniBox-1.11.0-windows.zip",
-  "sha256": "26f9a26af6bc59b9b8860d9c002a4e3c603e031b232120560e48e8ae9cb9d179",
-  "size": 13226524,
+  "version": "1.11.1",
+  "file": "AniBox-1.11.1-windows.zip",
+  "sha256": "a6fd218a6706a799fac3ce5c1dae696ed517a0a85d2d8a8c201b2114f2ae88d3",
+  "size": 13230947,
   "date": "2026-11-23",
-  "notes": "Watch again: just this episode, or start again from here (with Undo).\nOpenings and endings skipped even without chapter marks (found by comparing episodes).\nAniList banners, characters with voice actors, staff and trailers on show pages; your own collections.\nProfiles: who's watching, own progress per person, PIN and kids' limits.\nTV: Internet Archive videos on the TV, exact subtitle track and sound language on CastApp TV, TV copies of Hi10P files, Chromecast.\nNew videos in Downloads are noticed by themselves. Check my setup writes a report you can send."
+  "notes": "Fixes the six known gaps: collections are in the backup and stay put when a show is moved or renamed; openings/endings found by sound can be skipped on the TV too; with several profiles the Plex import goes into the profile that started it and nobody's place is lost; Chromecast tries a refused stream again as a live stream and leaves Windows' mDNS port alone; 'Plays on the TV?' warns about file types CastApp TV can't open (Blu-ray .m2ts, WMV, Ogg video) and offers a TV copy; CastApp TV gets the exact sound track."
 }
