@@ -1,0 +1,38 @@
+# Turns the AniBox zips pushed here into GitHub releases (Releases page), so the repository itself
+# only holds latest.json and the README. Runs on GitHub's servers; free for public repositories.
+#
+# A new version arrives on a branch "upload/v<version>" with the zip, latest.json and README.
+# This workflow then:
+#   1. creates the release v<version> with the zip, its .sha256 file and the notes from latest.json,
+#   2. puts latest.json (pointing at the release's download) and the README on main,
+#   3. deletes the upload branch, so the zip doesn't stay in main's history.
+# On main it also makes releases for every zip found in main's history (1.9.0 on) and removes zips
+# still lying in main's folder.
+name: Release
+
+on:
+  push:
+    branches: [main, "upload/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Make the GitHub releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 .github/release.py
