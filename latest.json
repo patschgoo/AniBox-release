@@ -1,9 +1,9 @@
 {
-  "version": "1.14.0",
-  "file": "AniBox-1.14.0-windows.zip",
-  "sha256": "ef3edcac67859be59e6ee34238b59e7ee62f5ab9a72469867f26b54d81288b25",
-  "size": 13307579,
+  "version": "1.14.1",
+  "file": "AniBox-1.14.1-windows.zip",
+  "sha256": "6305ae83d2c9b4514b0e8f9f201f1afd78f29c36235fea845cde86f0e7268327",
+  "size": 13349364,
   "date": "2026-11-23",
-  "notes": "Locks per show: locked shows only get what's missing (info files, a poster, subtitle files) and nothing that's there changes; open a show to allow changes; episodes are locked only by hand; One Piece asks you first before anything. Info is only added where the MyAnimeList match is certain (\"This match is right\" for the rest). Your own show info: title, description, poster and episode titles for any show, also ones not on MyAnimeList. Info files take your own info, then what Plex shows today, then MyAnimeList. New: Plex and AniBox side by side (Settings → Your Plex library), a read-only check of every Plex entry against your folders.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.14.0/AniBox-1.14.0-windows.zip"
+  "notes": "Plex backup and restore: Settings → Your Plex library → Back up Plex makes a copy of everything you can edit in Plex (titles, descriptions, tags, posters, watched marks, library settings) and, if you like, Plex's own database file. It only reads from Plex. Restore puts a backup back into the same library or into a new one over the same folders, matched by file, with a preview first and Undo after. One Piece, the old-agent libraries and (into the same library) shows locked in AniBox each need an extra yes.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.14.1/AniBox-1.14.1-windows.zip"
 }
