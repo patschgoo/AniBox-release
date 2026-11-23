@@ -1,8 +1,8 @@
 {
-  "version": "1.11.1",
-  "file": "AniBox-1.11.1-windows.zip",
-  "sha256": "a6fd218a6706a799fac3ce5c1dae696ed517a0a85d2d8a8c201b2114f2ae88d3",
-  "size": 13230947,
+  "version": "1.11.2",
+  "file": "AniBox-1.11.2-windows.zip",
+  "sha256": "8efc753a195b968ec690f269bb427b7ca36b851f32c1793be90abe18e542f5ce",
+  "size": 13231890,
   "date": "2026-11-23",
-  "notes": "Fixes the six known gaps: collections are in the backup and stay put when a show is moved or renamed; openings/endings found by sound can be skipped on the TV too; with several profiles the Plex import goes into the profile that started it and nobody's place is lost; Chromecast tries a refused stream again as a live stream and leaves Windows' mDNS port alone; 'Plays on the TV?' warns about file types CastApp TV can't open (Blu-ray .m2ts, WMV, Ogg video) and offers a TV copy; CastApp TV gets the exact sound track."
+  "notes": "TV copies of files that only their type keeps from the TV (Blu-ray .m2ts on CastApp TV) are now just repackaged, picture unchanged, in seconds instead of converted. The exact sound track sent to CastApp TV was checked against CastApp's own code. If a Chromecast can't play a stream AniBox makes on the fly, AniBox now suggests making a TV copy."
 }
