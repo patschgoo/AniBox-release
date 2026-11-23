@@ -87,11 +87,32 @@ def make_release(version, commit, name, target, latest, workdir):
     print(f"{tag}: release made ({len(data):,} bytes)")
 
 
+def realign_tags(ref="origin/main"):
+    """A release tag whose commit isn't on main any more (main's history was rewritten) moves to the
+    commit on main with the same files and the same subject; the release stays with its tag name."""
+    commits = []
+    for line in git("log", "--format=%H %T %s", ref).splitlines():
+        sha, tree, subject = line.split(" ", 2) if line.count(" ") >= 2 else (line.split(" ") + ["", ""])[:3]
+        commits.append((sha, tree, subject))
+    for tag in git("tag", "--list", "v*").split():
+        sha = git("rev-parse", tag + "^{commit}")
+        if run("git", "merge-base", "--is-ancestor", sha, ref, check=False).returncode == 0:
+            continue
+        tree, subject = git("rev-parse", tag + "^{tree}"), git("log", "-1", "--format=%s", sha)
+        match = next((c for c, tr, s in commits if tr == tree and s == subject), None)
+        if not match:
+            print(f"{tag}: its commit isn't on main and has no twin there; left as it is")
+            continue
+        git("push", "--force", "origin", f"{match}:refs/tags/{tag}")
+        print(f"{tag}: moved to {match[:7]} on main")
+
+
 def main():
     found = zips_in_history()
     head = git("rev-parse", "HEAD")
     git("fetch", "origin", "main")
     main_sha = git("rev-parse", "origin/main")
+    realign_tags()
     if not found:
         print("No AniBox zips in the history: nothing to release.")
     head_manifest = manifest_at(head)
@@ -117,7 +138,7 @@ def main():
         if ZIP_RE.match(p.name):
             git("rm", "-q", "--", p.name)
     git("add", "--", *[f for f in ("latest.json", "README.md") if Path(f).exists()])
-    if git("status", "--porcelain"):
+    if git("diff", "--cached", "--name-only"):  # only what this script staged
         git("commit", "-q", "-m", f"AniBox {man.get('version', '')}: download from the GitHub release")
         git("push", "origin", "main")
         print("main updated: latest.json points at the release; no zips in the folder")
