@@ -1,9 +1,9 @@
 {
-  "version": "1.12.0",
-  "file": "AniBox-1.12.0-windows.zip",
-  "sha256": "53455425ed51ce2d7e91cb465ffebc8314c16065853ec709057c8fa001059bbc",
-  "size": 13236710,
+  "version": "1.13.0",
+  "file": "AniBox-1.13.0-windows.zip",
+  "sha256": "30292071fdc25c9efe25177b2638144e0dc3aff4a67e6798d375f7a67adb1256",
+  "size": 13257637,
   "date": "2026-11-23",
-  "notes": "Fixes from your first run on the PC. The video no longer leaves a grey box on the page after it stops, and it moves beside the sound/subtitle list instead of disappearing. Check my library no longer counts parts of one episode, extras or editions as copies, and judges small files against their whole folder. More folders match MyAnimeList (titles with [X], films named like the anime they're based on are left alone), and one click uses Plex's old match for the shows AniBox couldn't match. Show pages get AniList's description without a MyAnimeList Client ID.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.12.0/AniBox-1.12.0-windows.zip"
+  "notes": "Your own TV channels: a new Channels tab. A channel shows your own shows on a schedule that runs by the clock, like real TV: time slots per weekday (for example Mon-Fri 18:00, two episodes of a series, the next ones in order) and other shows, collections or libraries in between. Tune in and you join whatever is on; the channel keeps going while AniBox is closed. Watch in AniBox or on a TV (CastApp TV, LG, Chromecast), switch channels with N/P or the bar, and see the next hours in the TV guide. Channels never change your watch progress unless you switch that on per channel.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.13.0/AniBox-1.13.0-windows.zip"
 }
