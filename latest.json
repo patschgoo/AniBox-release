@@ -4,5 +4,6 @@
   "sha256": "8efc753a195b968ec690f269bb427b7ca36b851f32c1793be90abe18e542f5ce",
   "size": 13231890,
   "date": "2026-11-23",
-  "notes": "TV copies of files that only their type keeps from the TV (Blu-ray .m2ts on CastApp TV) are now just repackaged, picture unchanged, in seconds instead of converted. The exact sound track sent to CastApp TV was checked against CastApp's own code. If a Chromecast can't play a stream AniBox makes on the fly, AniBox now suggests making a TV copy."
+  "notes": "TV copies of files that only their type keeps from the TV (Blu-ray .m2ts on CastApp TV) are now just repackaged, picture unchanged, in seconds instead of converted. The exact sound track sent to CastApp TV was checked against CastApp's own code. If a Chromecast can't play a stream AniBox makes on the fly, AniBox now suggests making a TV copy.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.11.2/AniBox-1.11.2-windows.zip"
 }
