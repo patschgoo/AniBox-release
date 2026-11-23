@@ -1,8 +1,8 @@
 {
-  "version": "1.10.0",
-  "file": "AniBox-1.10.0-windows.zip",
-  "sha256": "adbd07c17a9b850e0ac4661537b63fc9188501ca5dc0148a587c146cda361a9a",
-  "size": 13012676,
+  "version": "1.11.0",
+  "file": "AniBox-1.11.0-windows.zip",
+  "sha256": "26f9a26af6bc59b9b8860d9c002a4e3c603e031b232120560e48e8ae9cb9d179",
+  "size": 13226524,
   "date": "2026-11-23",
-  "notes": "Internet Archive, like Frostbox:\nSeries playlists: paste archive.org links, tick the series, sorted by air date or episode, hide episodes, refresh finds new ones.\nA cache that loads with several connections, loads the next 2 episodes ahead and plays without stopping to buffer.\nKeep: an episode stays on your PC in the folder AniBox Keep.\nAniBox plays archive.org's quick-starting MP4 copy unless the original is sharper.\nIncludes everything from 1.9.0 (lists and sync, new-episode notices, library check, TV check, subtitles, updates from here)."
+  "notes": "Watch again: just this episode, or start again from here (with Undo).\nOpenings and endings skipped even without chapter marks (found by comparing episodes).\nAniList banners, characters with voice actors, staff and trailers on show pages; your own collections.\nProfiles: who's watching, own progress per person, PIN and kids' limits.\nTV: Internet Archive videos on the TV, exact subtitle track and sound language on CastApp TV, TV copies of Hi10P files, Chromecast.\nNew videos in Downloads are noticed by themselves. Check my setup writes a report you can send."
 }
