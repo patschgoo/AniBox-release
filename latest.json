@@ -1,9 +1,9 @@
 {
-  "version": "1.15.1",
-  "file": "AniBox-1.15.1-windows.zip",
-  "sha256": "27272cab86a7ed5f9e6900e50e88eb830a9e26ba6249b4d58c5329c6565c8932",
-  "size": 13368393,
+  "version": "1.15.2",
+  "file": "AniBox-1.15.2-windows.zip",
+  "sha256": "4d2f59402fd991bd20731993f389c5eaf017a41f8f12fa0a0d91610012bfa277",
+  "size": 13368556,
   "date": "2026-11-24",
-  "notes": "AniBox 1.15.1 (24 Nov 2026): ready for the phone app's first test.\n- The QR code under Settings → Phone app (and the sync folder's library.json) now also carries the Shield's address in your home network when this PC knows it, because phones often can't find Windows names like the Shield's.\n- The sync folder now carries your sound and subtitle languages, so the phone picks the same tracks as the PC.\n- New \"Copy as text\" button next to the QR code, for the phone app's \"Paste the code's text\".\n- Collections with the same title now always sort the same way (found by the Windows tests).",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.15.1/AniBox-1.15.1-windows.zip"
+  "notes": "AniBox 1.15.2 (24 Nov 2026): one fix found by the tests on Windows.\n- Internet Archive downloads: a download that archive.org answered with \"busy\" could stay \"waiting\" for ever on Windows instead of trying again. It now tries again on time.\nAlso in it, if you're coming from 1.15.0: the Shield's address and your languages in the phone app's sync folder, and \"Copy as text\" next to the QR code (1.15.1).",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.15.2/AniBox-1.15.2-windows.zip"
 }
