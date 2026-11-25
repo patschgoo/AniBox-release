@@ -1,9 +1,9 @@
 {
-  "version": "1.17.4",
-  "file": "AniBox-1.17.4-windows.zip",
-  "sha256": "38282d0ca68977d38fe2ec3ab5b3ea0066231e397725caccbbf2e21166218a28",
-  "size": 13387444,
+  "version": "1.17.5",
+  "file": "AniBox-1.17.5-windows.zip",
+  "sha256": "7bf7dc78bc667d9349c0adf13f70e94600b70dee89a9934cc8824a5482415ff0",
+  "size": 13388650,
   "date": "2026-11-25",
-  "notes": "The question to copy Plex's details again now names the Plex libraries your old copy lacks (for example \"Not in it: Movies, Filme\"). AniBox asks Plex for that list in the background and only reads.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.4/AniBox-1.17.4-windows.zip"
+  "notes": "Only anime libraries get automatic MyAnimeList matches now: a live-action film in Movies or Filme no longer becomes the anime of the same name (matches by hand still work everywhere). Folders AniBox already knows are matched again by themselves when the matching rules or anime lists change, so old wrong film matches disappear without a full rescan. Series and films linked in your copy of Plex's details no longer count as 'Not matched', and Library > Anime has a 'Not matched' chip.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.5/AniBox-1.17.5-windows.zip"
 }
