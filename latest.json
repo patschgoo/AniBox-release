@@ -1,9 +1,9 @@
 {
-  "version": "1.19.0",
-  "file": "AniBox-1.19.0-windows.zip",
-  "sha256": "ee070228de8987302305c897dc7d79281f45a204217cacf9bdea8e463715b6f4",
-  "size": 13408472,
+  "version": "1.19.1",
+  "file": "AniBox-1.19.1-windows.zip",
+  "sha256": "d0be88e299b558e4413a813488f3aaabe46436d45517b6740854fcc05de9c608",
+  "size": 13412686,
   "date": "2026-11-25",
-  "notes": "Series and movie matching: OMDb and Trakt as optional extras. Add your own free OMDb key or Trakt client ID in Settings → Series and movie matching. Trakt links IMDb, TMDB and TVDB IDs and searches by title and year; OMDb checks the year and adds title, description, genres and poster. Both stay off without a key and come after the Plex/.nfo IDs, TVmaze and Wikidata; only folder names and IDs are sent.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.19.0/AniBox-1.19.0-windows.zip"
+  "notes": "Fixes from the first check on the PC. Wikidata names now come in English also where Wikidata keeps them under 'all languages' (no more German titles or bare Q-numbers; the old ones are fetched again), and Wikidata is searched once more with the folder's year. Anime folders the names don't decide now take the MyAnimeList ID your Plex library already knows, then MyAnimeList's own search with your Client ID; endings like (Live), Special or - Weekly are left out, a folder that is part of an entry or leaves words out of a long title is matched when the file count fits, and '2nd Season' follows the sequel. A match by hand still wins.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.19.1/AniBox-1.19.1-windows.zip"
 }
