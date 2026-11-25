@@ -1,9 +1,9 @@
 {
-  "version": "1.17.3",
-  "file": "AniBox-1.17.3-windows.zip",
-  "sha256": "5a181dc94236ed17cee41d96d5d6404e2f6a1c9c577aad1daa505e0b83fad3f5",
-  "size": 13386841,
+  "version": "1.17.4",
+  "file": "AniBox-1.17.4-windows.zip",
+  "sha256": "38282d0ca68977d38fe2ec3ab5b3ea0066231e397725caccbbf2e21166218a28",
+  "size": 13387444,
   "date": "2026-11-25",
-  "notes": "Copies of Plex's details made before movie libraries were copied are now noticed: Home and Settings > Your Plex library ask whether to copy again (Copy again / Not now). AniBox never copies by itself, and copying only reads from Plex.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.3/AniBox-1.17.3-windows.zip"
+  "notes": "The question to copy Plex's details again now names the Plex libraries your old copy lacks (for example \"Not in it: Movies, Filme\"). AniBox asks Plex for that list in the background and only reads.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.4/AniBox-1.17.4-windows.zip"
 }
