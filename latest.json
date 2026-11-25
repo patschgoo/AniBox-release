@@ -1,9 +1,9 @@
 {
-  "version": "1.19.1",
-  "file": "AniBox-1.19.1-windows.zip",
-  "sha256": "d0be88e299b558e4413a813488f3aaabe46436d45517b6740854fcc05de9c608",
-  "size": 13412686,
+  "version": "1.19.2",
+  "file": "AniBox-1.19.2-windows.zip",
+  "sha256": "1031162b9e3058466afd988afecfc5d952395e8dd6666de0744415f98bb1dce5",
+  "size": 13412894,
   "date": "2026-11-25",
-  "notes": "Fixes from the first check on the PC. Wikidata names now come in English also where Wikidata keeps them under 'all languages' (no more German titles or bare Q-numbers; the old ones are fetched again), and Wikidata is searched once more with the folder's year. Anime folders the names don't decide now take the MyAnimeList ID your Plex library already knows, then MyAnimeList's own search with your Client ID; endings like (Live), Special or - Weekly are left out, a folder that is part of an entry or leaves words out of a long title is matched when the file count fits, and '2nd Season' follows the sequel. A match by hand still wins.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.19.1/AniBox-1.19.1-windows.zip"
+  "notes": "The phone app's sync folder now also gets the series and movie info from TVmaze, Wikidata and OMDb (poster, year, description, genres, TVmaze episode titles) where TMDB has none.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.19.2/AniBox-1.19.2-windows.zip"
 }
