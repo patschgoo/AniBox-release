@@ -1,9 +1,9 @@
 {
-  "version": "1.17.0",
-  "file": "AniBox-1.17.0-windows.zip",
-  "sha256": "a064bace7e141eef83d4f74b2861eb4fab51d233d3dcfa4086645de59fd7253d",
-  "size": 13385448,
-  "date": "2026-11-24",
-  "notes": "Library → Filters: a new Missing info filter (poster, description, genres, year, match, episode titles, descriptions and pictures; any or all of them), with the language, subtitle and lock filters in the same panel. Settings in groups: every section opens and closes, with a search box and a jump bar. The Update from a file text is no longer squeezed. Check my setup now checks the phone app's sync folder and says why Plex is reached over the internet at home. Internet Archive: a kept file can be deleted right after it finishes playing on Windows.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.0/AniBox-1.17.0-windows.zip"
+  "version": "1.17.1",
+  "file": "AniBox-1.17.1-windows.zip",
+  "sha256": "3c05580c7b13cdc02245156445799c338dc0cfa1b821d42d1555dc554a4d6102",
+  "size": 13385913,
+  "date": "2026-11-25",
+  "notes": "Phone app: shows without a poster now get the poster from your Plex copy, or AniBox fetches the missing MyAnimeList posters (up to a minute per sync). After updating, press Settings → Phone app → Write now once. Works with AniBox for Android 0.2.1, which adds Send debug info.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.1/AniBox-1.17.1-windows.zip"
 }
