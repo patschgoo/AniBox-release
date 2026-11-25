@@ -1,9 +1,9 @@
 {
-  "version": "1.17.2",
-  "file": "AniBox-1.17.2-windows.zip",
-  "sha256": "7f6134eaf9fe27981bb88bf18fd3373c98a6366dcde8956b3391337f06d01b2b",
-  "size": 13386175,
+  "version": "1.17.3",
+  "file": "AniBox-1.17.3-windows.zip",
+  "sha256": "5a181dc94236ed17cee41d96d5d6404e2f6a1c9c577aad1daa505e0b83fad3f5",
+  "size": 13386841,
   "date": "2026-11-25",
-  "notes": "Library cards now show Plex's poster when they have none (series and movies that aren't on MyAnimeList, also without a TMDB key). If your copy of Plex's details was made before movie libraries were supported, press Settings > Your Plex library > Copy now once.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.2/AniBox-1.17.2-windows.zip"
+  "notes": "Copies of Plex's details made before movie libraries were copied are now noticed: Home and Settings > Your Plex library ask whether to copy again (Copy again / Not now). AniBox never copies by itself, and copying only reads from Plex.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.3/AniBox-1.17.3-windows.zip"
 }
