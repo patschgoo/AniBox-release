@@ -1,9 +1,9 @@
 {
-  "version": "1.17.5",
-  "file": "AniBox-1.17.5-windows.zip",
-  "sha256": "7bf7dc78bc667d9349c0adf13f70e94600b70dee89a9934cc8824a5482415ff0",
-  "size": 13388650,
+  "version": "1.18.0",
+  "file": "AniBox-1.18.0-windows.zip",
+  "sha256": "3b291eb08079969ba1fc810787b5a89f518f2665ceb00230f2567facd576d2ea",
+  "size": 13404876,
   "date": "2026-11-25",
-  "notes": "Only anime libraries get automatic MyAnimeList matches now: a live-action film in Movies or Filme no longer becomes the anime of the same name (matches by hand still work everywhere). Folders AniBox already knows are matched again by themselves when the matching rules or anime lists change, so old wrong film matches disappear without a full rescan. Series and films linked in your copy of Plex's details no longer count as 'Not matched', and Library > Anime has a 'Not matched' chip.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.5/AniBox-1.17.5-windows.zip"
+  "notes": "Series and movies get matched without a TMDB key: first by the IDs Plex and .nfo files next to your videos already know (read only), then on TVmaze (series: title, year, description, genres, poster, episode titles) and Wikidata (films: title, year, short description). A name only counts when the title is the same and the folder's year fits; anything unclear stays 'Not matched' for Wrong match? on the show page. With a TMDB key, TMDB uses those IDs instead of a name search, and films whose year is more than one off no longer match. Settings > Series and movie matching can switch the lookups off.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.18.0/AniBox-1.18.0-windows.zip"
 }
