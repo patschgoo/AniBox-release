@@ -1,9 +1,9 @@
 {
-  "version": "1.17.1",
-  "file": "AniBox-1.17.1-windows.zip",
-  "sha256": "3c05580c7b13cdc02245156445799c338dc0cfa1b821d42d1555dc554a4d6102",
-  "size": 13385913,
+  "version": "1.17.2",
+  "file": "AniBox-1.17.2-windows.zip",
+  "sha256": "7f6134eaf9fe27981bb88bf18fd3373c98a6366dcde8956b3391337f06d01b2b",
+  "size": 13386175,
   "date": "2026-11-25",
-  "notes": "Phone app: shows without a poster now get the poster from your Plex copy, or AniBox fetches the missing MyAnimeList posters (up to a minute per sync). After updating, press Settings → Phone app → Write now once. Works with AniBox for Android 0.2.1, which adds Send debug info.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.1/AniBox-1.17.1-windows.zip"
+  "notes": "Library cards now show Plex's poster when they have none (series and movies that aren't on MyAnimeList, also without a TMDB key). If your copy of Plex's details was made before movie libraries were supported, press Settings > Your Plex library > Copy now once.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.17.2/AniBox-1.17.2-windows.zip"
 }
