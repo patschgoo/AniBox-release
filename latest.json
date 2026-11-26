@@ -1,9 +1,9 @@
 {
-  "version": "1.19.2",
-  "file": "AniBox-1.19.2-windows.zip",
-  "sha256": "1031162b9e3058466afd988afecfc5d952395e8dd6666de0744415f98bb1dce5",
-  "size": 13412894,
-  "date": "2026-11-25",
-  "notes": "The phone app's sync folder now also gets the series and movie info from TVmaze, Wikidata and OMDb (poster, year, description, genres, TVmaze episode titles) where TMDB has none.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.19.2/AniBox-1.19.2-windows.zip"
+  "version": "1.20.0",
+  "file": "AniBox-1.20.0-windows.zip",
+  "sha256": "44247475cd2a2c6c205e67710d1aa54a1e4b1e37af72c5759f13b69a3f46b578",
+  "size": 13435889,
+  "date": "2026-11-26",
+  "notes": "Choose your libraries: after adding a folder you tick which folders inside it are libraries, and only those are scanned (deeper folders, like a disc set's Disc 2, stay part of their show). Per library: English or German titles and which site to ask first (MyAnimeList, AniList, Kitsu, Wikidata). Folder names that aren't a MyAnimeList title are looked up on AniList and Kitsu; the same name there is a sure match, the rest waits under Library → Check matches.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.20.0/AniBox-1.20.0-windows.zip"
 }
