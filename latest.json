@@ -1,9 +1,9 @@
 {
-  "version": "1.23.0",
-  "file": "AniBox-1.23.0-windows.zip",
-  "sha256": "d223fac6ab1d1c6c70b278924f432402e25cc766e12ce84349d997c5c4fb0cdb",
-  "size": 13466354,
+  "version": "1.24.0",
+  "file": "AniBox-1.24.0-windows.zip",
+  "sha256": "d3408152fefabd2b2a2e690dc5041235e228e40fa5e5c632dc74856976f96c88",
+  "size": 13472644,
   "date": "2026-11-27",
-  "notes": "One lock per show. The file lock and the info lock are now one lock with three states, shown as one coloured badge on every card: Open (AniBox may change the show's info and files), Semi-locked (the saved info stays, new info waits in Review info, info files go to Plex after your check, files on the drive are never renamed or moved) and Locked (AniBox writes, changes and adds nothing). Change it on the show page, per library in Settings → Locks, or set a whole library in Settings → Libraries to show. Your old locks move over by themselves: shows AniBox had locked by itself become Semi-locked, shows you locked by hand become Locked and still get what's missing added, as before. Filter the library by lock under Filters.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.23.0/AniBox-1.23.0-windows.zip"
+  "notes": "A new Plex library next to the old one. Settings → Show info → Switch a Plex library to info files → New library … makes a second Plex library with Plex's NFO agent over the folders you pick, and leaves the old library exactly as it is (its details, matches and watched marks). Shows get AniBox's details there as their info files are ready. Per new library: Ready X of Y, 'Show Plex the ready shows' (refreshes only the shows that became ready since last time) and 'Copy watched marks …' from the old library (preview first, nothing is written before Restore). Undo in the History removes the new library again. Delete the old library in Plex yourself once everything is there.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.24.0/AniBox-1.24.0-windows.zip"
 }
