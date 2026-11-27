@@ -1,9 +1,9 @@
 {
-  "version": "1.21.0",
-  "file": "AniBox-1.21.0-windows.zip",
-  "sha256": "3ebd192aef45809ac022000c9692e2a6d84fbf74c766d09511f8e5e845bbb294",
-  "size": 13449139,
-  "date": "2026-11-26",
-  "notes": "Open, semi-locked and locked shows. Once a show's match is sure, AniBox saves its info (title in the library's language, description, genres, studio, year, poster, episode titles). New info found later is put aside for Library → Review info, where you keep or take each field. Info files for Plex now only go to semi-locked shows: after your review (default) or, per library, as soon as the match is certain (Settings → Libraries to show). Locked shows, and whole libraries you lock there, get nothing written. \"Check for new info\" on each show's page. Note: with the default, Write and fill-in-after-scan only write shows you checked.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.21.0/AniBox-1.21.0-windows.zip"
+  "version": "1.22.0",
+  "file": "AniBox-1.22.0-windows.zip",
+  "sha256": "ae8edd178cd2d05c8fd7657463bad9060d080c83e37f75445a4f2ab685289883",
+  "size": 13461797,
+  "date": "2026-11-27",
+  "notes": "AniBox 1.22.0: Switch a Plex library to info files. Settings → Show info → \"Switch a Plex library to info files\": pick one Plex library and AniBox switches only that one to Plex's NFO agent. Before anything changes it shows how many shows are checked (and warns when not all are), warns extra for libraries on the old MyAnimeList agent, asks separately for One Piece, and shows the old → new agent. Then it writes the info files for the checked shows, backs that library up in Plex, switches it and asks Plex to refresh all metadata. Undo is in the History. Try it on a test library first.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.22.0/AniBox-1.22.0-windows.zip"
 }
