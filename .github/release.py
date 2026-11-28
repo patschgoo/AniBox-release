@@ -125,7 +125,12 @@ def main():
     # main: latest.json pointing at the release, the README, and no zips in the folder
     uploading = BRANCH.startswith("upload/")
     git("checkout", "-q", "-B", "main", "origin/main")
-    if uploading:  # the new version's latest.json and README go to main; its zip doesn't
+    on_main = json.loads(Path("latest.json").read_text(encoding="utf-8")) if Path("latest.json").exists() else {}
+    older = bool(on_main.get("version") and head_manifest and head_manifest.get("version")
+                 and vkey(head_manifest["version"]) < vkey(on_main["version"]))
+    if uploading and older:  # an old upload branch run again: its release is made, but main keeps the newer version
+        print(f"{BRANCH} holds {head_manifest['version']}, older than main's {on_main['version']}: latest.json stays")
+    elif uploading:  # the new version's latest.json and README go to main; its zip doesn't
         for f in ("latest.json", "README.md"):
             if f == "latest.json" or head_manifest:
                 git("checkout", head, "--", f)
