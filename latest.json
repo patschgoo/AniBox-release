@@ -1,9 +1,9 @@
 {
-  "version": "1.29.0",
-  "file": "AniBox-1.29.0-windows.zip",
-  "sha256": "1b1bb71689172ed84e27cb521c50665df8e44650882947e477bb4b89040537b3",
-  "size": 13497008,
+  "version": "1.30.0",
+  "file": "AniBox-1.30.0-windows.zip",
+  "sha256": "93169f2d5fd95f57557d11a38d639ab854d2e915aa87de44682bbb145de5f0fe",
+  "size": 13498215,
   "date": "2026-11-28",
-  "notes": "Window redesign, step 2 of 4: the show page. Only Play and Play on TV are buttons now; everything else (Mark all watched, MyAnimeList, Trailer, Wrong match?, Add to collection, Your own info, Open folder, Move or rename) is in a More menu. Tracking, Lock and saved info, On the TV, Opening and ending, From your Plex library and Episodes are sections you can fold; a closed section shows one line with what matters (your list entry and how far it is behind, the lock state, what plays on which TV), and AniBox remembers which ones you keep open. The episode list is tighter, marks the next episode (Up next / Resume at) and shows lengths where known. Nothing about how AniBox works changed.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.29.0/AniBox-1.29.0-windows.zip"
+  "notes": "Window redesign, step 3 of 4: Library and Home. The Library has one bar of controls (Anime / Series / Movies, search, Shows / Franchises, sorting, Filters, a Tools menu and Add new videos) and one row of chips. Your lists, Statistics, Check my library, History, Collections, Check matches and Review info are in the Tools menu. The library chips moved into Filters, and every filter you set shows as a chip you can take away with one click. New: sort by title, newest in the library, last watched, year, or most left to watch. Cards show a lock mark only when it is unusual (Open, Locked, or a match to check). Home starts with one slim line of numbers. Nothing about how AniBox works changed.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.30.0/AniBox-1.30.0-windows.zip"
 }
