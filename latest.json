@@ -1,9 +1,9 @@
 {
-  "version": "1.30.0",
-  "file": "AniBox-1.30.0-windows.zip",
-  "sha256": "93169f2d5fd95f57557d11a38d639ab854d2e915aa87de44682bbb145de5f0fe",
-  "size": 13498215,
+  "version": "1.31.0",
+  "file": "AniBox-1.31.0-windows.zip",
+  "sha256": "b103df5276c7d668a7092ec3dc2bc2d492a33655e98fb609cd3463fc960378d6",
+  "size": 13500557,
   "date": "2026-11-28",
-  "notes": "Window redesign, step 3 of 4: Library and Home. The Library has one bar of controls (Anime / Series / Movies, search, Shows / Franchises, sorting, Filters, a Tools menu and Add new videos) and one row of chips. Your lists, Statistics, Check my library, History, Collections, Check matches and Review info are in the Tools menu. The library chips moved into Filters, and every filter you set shows as a chip you can take away with one click. New: sort by title, newest in the library, last watched, year, or most left to watch. Cards show a lock mark only when it is unusual (Open, Locked, or a match to check). Home starts with one slim line of numbers. Nothing about how AniBox works changed.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.30.0/AniBox-1.30.0-windows.zip"
+  "notes": "Window redesign, step 4 of 4: Settings. A menu on the left (Library, Show info, Watching, TV and phone, Plex and your lists, Internet Archive, AniBox) shows one group at a time; Find a setting still searches everything. Libraries to show is now one table, with a For all libraries row that sets a column for every library at once. Long explanations show their first line, with How this works to read the rest. Fixed: a lock set for a whole library in Settings looked like 'show decides' again after reopening the page (the lock itself was kept). This completes the redesign of the window (1.28 to 1.31).",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.31.0/AniBox-1.31.0-windows.zip"
 }
