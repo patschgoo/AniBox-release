@@ -1,9 +1,9 @@
 {
-  "version": "1.26.0",
-  "file": "AniBox-1.26.0-windows.zip",
-  "sha256": "4f994b74935f189dad70537ef7e6831388569fd9c944d8407410b794478412a2",
-  "size": 13485688,
+  "version": "1.27.0",
+  "file": "AniBox-1.27.0-windows.zip",
+  "sha256": "81c7e06e94462e987bec1d1794c5d23473547febe032753d6f7cdec87e2a4e68",
+  "size": 13493501,
   "date": "2026-11-28",
-  "notes": "Move shows to another library: Settings → Plex and your lists → pick the library to move from and the one to move into. AniBox shows which Plex libraries use each folder, lists every show old → new (and why a locked or semi-locked show can't go), moves the ticked ones on the same drive by renaming, then asks Plex to scan the moved folders (never into a library only old-agent Plex libraries use). History → Undo moves them back. Watched marks to Plex: for one Plex TV library, episodes watched in AniBox but not in Plex are marked watched there after a preview; never un-marks; History → Undo un-marks exactly those.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.26.0/AniBox-1.26.0-windows.zip"
+  "notes": "Tracking box on every show page, like Mihon: your MyAnimeList and AniList entry (status, episodes, score, start and finish dates, rewatches) shown and changed right there. The entry comes from the show's MyAnimeList match, so nothing has to be searched per site. Shows when a list is behind AniBox with a one-click 'Set to N', adds shows that aren't on your list yet, and lets you confirm an unsure match. Changes by hand may lower a count; AniBox itself never does and never removes entries. Log in under Library → Your lists.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.27.0/AniBox-1.27.0-windows.zip"
 }
