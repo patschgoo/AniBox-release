@@ -1,9 +1,9 @@
 {
-  "version": "1.24.0",
-  "file": "AniBox-1.24.0-windows.zip",
-  "sha256": "d3408152fefabd2b2a2e690dc5041235e228e40fa5e5c632dc74856976f96c88",
-  "size": 13472644,
-  "date": "2026-11-27",
-  "notes": "A new Plex library next to the old one. Settings → Show info → Switch a Plex library to info files → New library … makes a second Plex library with Plex's NFO agent over the folders you pick, and leaves the old library exactly as it is (its details, matches and watched marks). Shows get AniBox's details there as their info files are ready. Per new library: Ready X of Y, 'Show Plex the ready shows' (refreshes only the shows that became ready since last time) and 'Copy watched marks …' from the old library (preview first, nothing is written before Restore). Undo in the History removes the new library again. Delete the old library in Plex yourself once everything is there.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.24.0/AniBox-1.24.0-windows.zip"
+  "version": "1.25.0",
+  "file": "AniBox-1.25.0-windows.zip",
+  "sha256": "666485e16bc2919e5f6998628208517ade69f5e942bce01e48e1fbf7ebce7c30",
+  "size": 13474662,
+  "date": "2026-11-28",
+  "notes": "Copy Plex's details and the Plex history import now read only the Plex libraries that use your AniBox library folders (others are left out; if none fits, all are read as before). AniList Load all asks 25 shows per question (genres, tags, description, banner, trailer), so a whole library takes minutes; the cast and staff load when you open a show. Settings: Phone app and Phone remote are one Phone panel; the MyAnimeList Client ID text links to myanimelist.net/apiconfig. Plex backup: the library list waits less, says when Plex is waking up and has Try again.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.25.0/AniBox-1.25.0-windows.zip"
 }
