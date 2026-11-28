@@ -1,9 +1,9 @@
 {
-  "version": "1.31.0",
-  "file": "AniBox-1.31.0-windows.zip",
-  "sha256": "b103df5276c7d668a7092ec3dc2bc2d492a33655e98fb609cd3463fc960378d6",
-  "size": 13500557,
+  "version": "1.32.0",
+  "file": "AniBox-1.32.0-windows.zip",
+  "sha256": "ac053334f50827219df7b8643cd340b1353cf5cc97dd2e693d1d81bac6751d8d",
+  "size": 13500822,
   "date": "2026-11-28",
-  "notes": "Window redesign, step 4 of 4: Settings. A menu on the left (Library, Show info, Watching, TV and phone, Plex and your lists, Internet Archive, AniBox) shows one group at a time; Find a setting still searches everything. Libraries to show is now one table, with a For all libraries row that sets a column for every library at once. Long explanations show their first line, with How this works to read the rest. Fixed: a lock set for a whole library in Settings looked like 'show decides' again after reopening the page (the lock itself was kept). This completes the redesign of the window (1.28 to 1.31).",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.31.0/AniBox-1.31.0-windows.zip"
+  "notes": "No show is built into AniBox any more. Ask first (Settings → Locks) now starts empty on a new install, so AniBox fits anyone's library; your own list stays exactly as it was (if you never changed it, One Piece keeps asking first, saved as your own setting). A library is no longer counted as anime because of a show's name (it still is when its folders match MyAnimeList). Settings now says that the One Piece fan-wiki pictures are the only source made for one show. Texts and examples no longer name a specific show.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.32.0/AniBox-1.32.0-windows.zip"
 }
