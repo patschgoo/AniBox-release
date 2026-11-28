@@ -1,9 +1,9 @@
 {
-  "version": "1.32.0",
-  "file": "AniBox-1.32.0-windows.zip",
-  "sha256": "ac053334f50827219df7b8643cd340b1353cf5cc97dd2e693d1d81bac6751d8d",
-  "size": 13500822,
+  "version": "1.33.0",
+  "file": "AniBox-1.33.0-windows.zip",
+  "sha256": "4f523854d134e7e3f4ef520f2e2a55f92e598404ac9eb0150cd9807a66681c33",
+  "size": 13505790,
   "date": "2026-11-28",
-  "notes": "No show is built into AniBox any more. Ask first (Settings → Locks) now starts empty on a new install, so AniBox fits anyone's library; your own list stays exactly as it was (if you never changed it, One Piece keeps asking first, saved as your own setting). A library is no longer counted as anime because of a show's name (it still is when its folders match MyAnimeList). Settings now says that the One Piece fan-wiki pictures are the only source made for one show. Texts and examples no longer name a specific show.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.32.0/AniBox-1.32.0-windows.zip"
+  "notes": "Fixes from the full review of AniBox, the phone app and CastApp TV.\n• A stream that drops halfway keeps your place instead of counting the episode as watched\n• The phone's progress comes over every few minutes while AniBox is open, and un-marking by hand on the phone travels too\n• Moving files: a file Plex or a player has open is reported instead of copied; too-long paths are named before the move; AniBox no longer closes by itself while files move\n• Updates: the zip is checked against the release list, and going back after a failed start also restores your data as it was",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.33.0/AniBox-1.33.0-windows.zip"
 }
