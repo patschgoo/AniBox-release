@@ -1,9 +1,9 @@
 {
-  "version": "1.25.0",
-  "file": "AniBox-1.25.0-windows.zip",
-  "sha256": "666485e16bc2919e5f6998628208517ade69f5e942bce01e48e1fbf7ebce7c30",
-  "size": 13474662,
+  "version": "1.26.0",
+  "file": "AniBox-1.26.0-windows.zip",
+  "sha256": "4f994b74935f189dad70537ef7e6831388569fd9c944d8407410b794478412a2",
+  "size": 13485688,
   "date": "2026-11-28",
-  "notes": "Copy Plex's details and the Plex history import now read only the Plex libraries that use your AniBox library folders (others are left out; if none fits, all are read as before). AniList Load all asks 25 shows per question (genres, tags, description, banner, trailer), so a whole library takes minutes; the cast and staff load when you open a show. Settings: Phone app and Phone remote are one Phone panel; the MyAnimeList Client ID text links to myanimelist.net/apiconfig. Plex backup: the library list waits less, says when Plex is waking up and has Try again.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.25.0/AniBox-1.25.0-windows.zip"
+  "notes": "Move shows to another library: Settings → Plex and your lists → pick the library to move from and the one to move into. AniBox shows which Plex libraries use each folder, lists every show old → new (and why a locked or semi-locked show can't go), moves the ticked ones on the same drive by renaming, then asks Plex to scan the moved folders (never into a library only old-agent Plex libraries use). History → Undo moves them back. Watched marks to Plex: for one Plex TV library, episodes watched in AniBox but not in Plex are marked watched there after a preview; never un-marks; History → Undo un-marks exactly those.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.26.0/AniBox-1.26.0-windows.zip"
 }
