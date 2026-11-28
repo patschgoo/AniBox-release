@@ -1,9 +1,9 @@
 {
-  "version": "1.28.0",
-  "file": "AniBox-1.28.0-windows.zip",
-  "sha256": "4151cb870bac39a64bb17c1a10ab28865734c5fd1fa0fd04778283dfab977c48",
-  "size": 13495253,
+  "version": "1.29.0",
+  "file": "AniBox-1.29.0-windows.zip",
+  "sha256": "1b1bb71689172ed84e27cb521c50665df8e44650882947e477bb4b89040537b3",
+  "size": 13497008,
   "date": "2026-11-28",
-  "notes": "Window redesign, step 1 of 4: every page has the same heading and the same '← Library' / '← Settings' button, text pages share one width, empty pages look alike, and no text is smaller than 12 px. Fixed: Settings → Phone app stayed on 'Loading …' since 1.22. Also '1 folder' instead of '1 folders', clearer wording under a folder in Settings, 'match?' instead of '?' on cards, a summary line for Profiles. The show page, Library and Settings layouts follow in the next versions.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.28.0/AniBox-1.28.0-windows.zip"
+  "notes": "Window redesign, step 2 of 4: the show page. Only Play and Play on TV are buttons now; everything else (Mark all watched, MyAnimeList, Trailer, Wrong match?, Add to collection, Your own info, Open folder, Move or rename) is in a More menu. Tracking, Lock and saved info, On the TV, Opening and ending, From your Plex library and Episodes are sections you can fold; a closed section shows one line with what matters (your list entry and how far it is behind, the lock state, what plays on which TV), and AniBox remembers which ones you keep open. The episode list is tighter, marks the next episode (Up next / Resume at) and shows lengths where known. Nothing about how AniBox works changed.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.29.0/AniBox-1.29.0-windows.zip"
 }
