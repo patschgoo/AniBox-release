@@ -1,9 +1,9 @@
 {
-  "version": "1.27.0",
-  "file": "AniBox-1.27.0-windows.zip",
-  "sha256": "81c7e06e94462e987bec1d1794c5d23473547febe032753d6f7cdec87e2a4e68",
-  "size": 13493501,
+  "version": "1.28.0",
+  "file": "AniBox-1.28.0-windows.zip",
+  "sha256": "4151cb870bac39a64bb17c1a10ab28865734c5fd1fa0fd04778283dfab977c48",
+  "size": 13495253,
   "date": "2026-11-28",
-  "notes": "Tracking box on every show page, like Mihon: your MyAnimeList and AniList entry (status, episodes, score, start and finish dates, rewatches) shown and changed right there. The entry comes from the show's MyAnimeList match, so nothing has to be searched per site. Shows when a list is behind AniBox with a one-click 'Set to N', adds shows that aren't on your list yet, and lets you confirm an unsure match. Changes by hand may lower a count; AniBox itself never does and never removes entries. Log in under Library → Your lists.",
-  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.27.0/AniBox-1.27.0-windows.zip"
+  "notes": "Window redesign, step 1 of 4: every page has the same heading and the same '← Library' / '← Settings' button, text pages share one width, empty pages look alike, and no text is smaller than 12 px. Fixed: Settings → Phone app stayed on 'Loading …' since 1.22. Also '1 folder' instead of '1 folders', clearer wording under a folder in Settings, 'match?' instead of '?' on cards, a summary line for Profiles. The show page, Library and Settings layouts follow in the next versions.",
+  "url": "https://github.com/patschgoo/AniBox-release/releases/download/v1.28.0/AniBox-1.28.0-windows.zip"
 }
